@@ -9,14 +9,14 @@ from bs4 import BeautifulSoup
 
 # 强烈建议部署在非大陆区域，例如HK、SG等
 # 常量命名使用全部大写的方式，可以使用下划线。
-USERNAME = ''  # 这里填用户名，邮箱也可
-PASSWORD = ''  # 这里填密码
+USERNAME = 'freop233@gmail.com'  # 这里填用户名，邮箱也可
+PASSWORD = 'FHH070527'  # 这里填密码
 
 # TrueCaptcha https://apitruecaptcha.org
 # https://gist.github.com/ZetaoYang/e182453efadc90739a14daf2bd829087
 # 验证码识别，默认使用 Demo API，每天有100次免费额度，建议自行注册以确保稳定性
-TRUECAPTCHA_USERID = 'arun56'
-TRUECAPTCHA_APIKEY = 'wMjXmBIcHcdYqO2RrsVN'
+TRUECAPTCHA_USERID = 'freop233'
+TRUECAPTCHA_APIKEY = '8J5GekSXw6222MDW8K7e'
 TRUECAPTCHA_CHECK_USAGE = True
 
 # Server酱 http://sc.ftqq.com/?c=code
@@ -31,8 +31,8 @@ COOL_PUSH_MODE = 'send'
 PUSH_PLUS_TOKEN = ''
 
 # Telegram Bot Push https://core.telegram.org/bots/api#authorizing-your-bot
-TG_BOT_TOKEN = ''  # 通过 @BotFather 申请获得，示例：1077xxx4424:AAFjv0FcqxxxxxxgEMGfi22B4yh15R5uw
-TG_USER_ID = ''  # 用户、群组或频道 ID，示例：129xxx206
+TG_BOT_TOKEN = '2010084697:AAFFiPb0tnBkZJ8baVUgkEVLJtZKZpRj358'  # 通过 @BotFather 申请获得，示例：1077xxx4424:AAFjv0FcqxxxxxxgEMGfi22B4yh15R5uw
+TG_USER_ID = '2093082770'  # 用户、群组或频道 ID，示例：129xxx206
 TG_API_HOST = 'api.telegram.org'  # 自建 API 反代地址，供网络环境无法访问时使用，网络正常则保持默认
 
 # wecomchan https://github.com/easychen/wecomchan
